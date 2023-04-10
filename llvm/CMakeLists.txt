@@ -301,6 +301,7 @@ set(LLVM_ALL_TARGETS
   NVPTX
   PowerPC
   RISCV
+  ZEN
   Sparc
   SystemZ
   WebAssembly

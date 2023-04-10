@@ -1,0 +1,12 @@
+#ifndef LLVM_LIB_TARGET_ZEN_TARGETINFO_ZENTARGETINFO_H
+#define LLVM_LIB_TARGET_ZEN_TARGETINFO_ZENTARGETINFO_H
+
+namespace llvm {
+
+class Target;
+
+Target &getTheZENTarget();
+
+} // namespace llvm
+
+#endif // LLVM_LIB_TARGET_ZEN_TARGETINFO_ZENTARGETINFO_H
